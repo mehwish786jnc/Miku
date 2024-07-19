@@ -1,0 +1,32 @@
+# huggingface transformers library from GitHub
+git+https://github.com/huggingface/transformers
+
+# accelerate library for distributed training
+accelerate>=0.13.2
+
+# datasets library for managing and accessing datasets
+datasets==2.10.1
+
+# sentencepiece library for tokenization
+sentencepiece!=0.1.92
+
+# protobuf library for handling protocol buffers
+protobuf==3.20.*
+
+# evaluate library for evaluation metrics
+evaluate>=0.3.0
+
+# scikit-learn library for machine learning tools
+scikit-learn>=1.1.3
+
+# deepspeed library for training large models with efficiency
+deepspeed>=0.7.4
+
+# datasketch library for probabilistic data structures
+datasketch==1.5.7
+
+# dpu_utils library for utilities used in deep learning projects
+dpu_utils==0.6.0
+
+# click library for creating command-line interfaces
+click==8.1.3
